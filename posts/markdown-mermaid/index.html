@@ -636,7 +636,7 @@ if (document.readyState === 'loading') {
                             hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Examples </a> </div> </div> <!-- word count -->  <!-- tags (只有在不显示基本元数据时才显示) --> <div class="items-center flex"> <div class="meta-icon"> <svg width="1em" height="1em" class="text-xl" data-icon="material-symbols:tag-rounded">   <symbol id="ai:material-symbols:tag-rounded" viewBox="0 0 24 24"><path fill="currentColor" d="m9 16l-.825 3.275q-.075.325-.325.525t-.6.2q-.475 0-.775-.375T6.3 18.8L7 16H4.275q-.5 0-.8-.387T3.3 14.75q.075-.35.35-.55t.625-.2H7.5l1-4H5.775q-.5 0-.8-.387T4.8 8.75q.075-.35.35-.55t.625-.2H9l.825-3.275Q9.9 4.4 10.15 4.2t.6-.2q.475 0 .775.375t.175.825L11 8h4l.825-3.275q.075-.325.325-.525t.6-.2q.475 0 .775.375t.175.825L17 8h2.725q.5 0 .8.387t.175.863q-.075.35-.35.55t-.625.2H16.5l-1 4h2.725q.5 0 .8.388t.175.862q-.075.35-.35.55t-.625.2H15l-.825 3.275q-.075.325-.325.525t-.6.2q-.475 0-.775-.375T12.3 18.8L13 16zm.5-2h4l1-4h-4z"/></symbol><use href="#ai:material-symbols:tag-rounded"></use>  </svg> </div> <div class="flex flex-row flex-nowrap items-center">  <div class="hidden mx-1.5 text-[var(--meta-divider)] text-sm">/</div> <a href="/archive/?tag=Markdown" aria-label="View all posts with the Markdown tag" class="link-lg transition text-50 text-sm font-medium
                                         hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Markdown </a>  <div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div> <a href="/archive/?tag=Blogging" aria-label="View all posts with the Blogging tag" class="link-lg transition text-50 text-sm font-medium
                                         hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Blogging </a>  <div class="mx-1.5 text-[var(--meta-divider)] text-sm">/</div> <a href="/archive/?tag=Mermaid" aria-label="View all posts with the Mermaid tag" class="link-lg transition text-50 text-sm font-medium
-                                        hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Mermaid </a>   </div> </div> <!-- 访问量（首页不显示，且umami.enabled为true时显示） -->  </div> <!-- 只有在非首页且启用umami且有slug时才加载脚本 -->  <div class="mt-4 border-[var(--line-divider)] border-dashed border-b-[1px] mb-5"></div> </div> <!-- always show cover as long as it has one -->   <div data-pagefind-body class="prose dark:prose-invert prose-base !max-w-none custom-md mb-6 markdown-content onload-animation"> <!--<div class="prose dark:prose-invert max-w-none custom-md">--> <!--<div class="max-w-none custom-md">-->  <section><h1 id="complete-guide-to-markdown-with-mermaid-diagrams">Complete Guide to Markdown with Mermaid Diagrams<a class="anchor" href="#complete-guide-to-markdown-with-mermaid-diagrams"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h1><p>This article demonstrates how to create various complex diagrams using Mermaid in Markdown documents, including flowcharts, sequence diagrams, Gantt charts, class diagrams, and state diagrams.</p><section><h2 id="flowchart-example">Flowchart Example<a class="anchor" href="#flowchart-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Flowcharts are excellent for representing processes or algorithm steps.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-qqyn8j"><div class="mermaid" data-mermaid-code="graph TD
+                                        hover:text-[var(--primary)] dark:hover:text-[var(--primary)] whitespace-nowrap"> Mermaid </a>   </div> </div> <!-- 访问量（首页不显示，且umami.enabled为true时显示） -->  </div> <!-- 只有在非首页且启用umami且有slug时才加载脚本 -->  <div class="mt-4 border-[var(--line-divider)] border-dashed border-b-[1px] mb-5"></div> </div> <!-- always show cover as long as it has one -->   <div data-pagefind-body class="prose dark:prose-invert prose-base !max-w-none custom-md mb-6 markdown-content onload-animation"> <!--<div class="prose dark:prose-invert max-w-none custom-md">--> <!--<div class="max-w-none custom-md">-->  <section><h1 id="complete-guide-to-markdown-with-mermaid-diagrams">Complete Guide to Markdown with Mermaid Diagrams<a class="anchor" href="#complete-guide-to-markdown-with-mermaid-diagrams"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h1><p>This article demonstrates how to create various complex diagrams using Mermaid in Markdown documents, including flowcharts, sequence diagrams, Gantt charts, class diagrams, and state diagrams.</p><section><h2 id="flowchart-example">Flowchart Example<a class="anchor" href="#flowchart-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Flowcharts are excellent for representing processes or algorithm steps.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-msui0q"><div class="mermaid" data-mermaid-code="graph TD
     A[Start] --> B{Condition Check}
     B -->|Yes| C[Process Step 1]
     B -->|No| D[Process Step 2]
@@ -1012,7 +1012,7 @@ if (document.readyState === 'loading') {
 		initialize();
 	}
 })();
-</script></div></section><section><h2 id="sequence-diagram-example">Sequence Diagram Example<a class="anchor" href="#sequence-diagram-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Sequence diagrams show interactions between objects over time.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-m5lmao"><div class="mermaid" data-mermaid-code="sequenceDiagram
+</script></div></section><section><h2 id="sequence-diagram-example">Sequence Diagram Example<a class="anchor" href="#sequence-diagram-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Sequence diagrams show interactions between objects over time.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-max0ii"><div class="mermaid" data-mermaid-code="sequenceDiagram
     participant User
     participant WebApp
     participant Server
@@ -1400,7 +1400,7 @@ if (document.readyState === 'loading') {
 		initialize();
 	}
 })();
-</script></div></section><section><h2 id="gantt-chart-example">Gantt Chart Example<a class="anchor" href="#gantt-chart-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Gantt charts are perfect for displaying project schedules and timelines.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-flykrs"><div class="mermaid" data-mermaid-code="gantt
+</script></div></section><section><h2 id="gantt-chart-example">Gantt Chart Example<a class="anchor" href="#gantt-chart-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Gantt charts are perfect for displaying project schedules and timelines.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-vdvpnt"><div class="mermaid" data-mermaid-code="gantt
     title Website Development Project Timeline
     dateFormat  YYYY-MM-DD
     axisFormat  %m/%d
@@ -1788,7 +1788,7 @@ if (document.readyState === 'loading') {
 		initialize();
 	}
 })();
-</script></div></section><section><h2 id="class-diagram-example">Class Diagram Example<a class="anchor" href="#class-diagram-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Class diagrams show the static structure of a system, including classes, attributes, methods, and their relationships.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-i7cxct"><div class="mermaid" data-mermaid-code="classDiagram
+</script></div></section><section><h2 id="class-diagram-example">Class Diagram Example<a class="anchor" href="#class-diagram-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Class diagrams show the static structure of a system, including classes, attributes, methods, and their relationships.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-7gyqsy"><div class="mermaid" data-mermaid-code="classDiagram
     class User {
         +String username
         +String password
@@ -2208,7 +2208,7 @@ if (document.readyState === 'loading') {
 		initialize();
 	}
 })();
-</script></div></section><section><h2 id="state-diagram-example">State Diagram Example<a class="anchor" href="#state-diagram-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>State diagrams show the sequence of states an object goes through during its life cycle.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-y58a05"><div class="mermaid" data-mermaid-code="stateDiagram-v2
+</script></div></section><section><h2 id="state-diagram-example">State Diagram Example<a class="anchor" href="#state-diagram-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>State diagrams show the sequence of states an object goes through during its life cycle.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-0vd6se"><div class="mermaid" data-mermaid-code="stateDiagram-v2
     [*] --> Draft
     
     Draft --> UnderReview : submit
@@ -2588,7 +2588,7 @@ if (document.readyState === 'loading') {
 		initialize();
 	}
 })();
-</script></div></section><section><h2 id="pie-chart-example">Pie Chart Example<a class="anchor" href="#pie-chart-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Pie charts are ideal for displaying proportions and percentage data.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-cdx45o"><div class="mermaid" data-mermaid-code="pie title Website Traffic Sources Analysis
+</script></div></section><section><h2 id="pie-chart-example">Pie Chart Example<a class="anchor" href="#pie-chart-example"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><p>Pie charts are ideal for displaying proportions and percentage data.</p><div class="mermaid-diagram-container"><div class="mermaid-wrapper" id="mermaid-gdsuf8"><div class="mermaid" data-mermaid-code="pie title Website Traffic Sources Analysis
     &#x22;Search Engines&#x22; : 45.6
     &#x22;Direct Access&#x22; : 30.1
     &#x22;Social Media&#x22; : 15.3
