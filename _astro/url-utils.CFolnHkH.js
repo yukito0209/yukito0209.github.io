@@ -1,0 +1,1 @@
+import"./config.D3-dyKAI.js";import"./zh_TW.Cjjw3Vy_.js";function u(o,t){const n=o.replace(/^\/|\/$/g,"").toLowerCase(),r=t.replace(/^\/|\/$/g,"").toLowerCase();return n===r}function e(...o){return o.join("/").replace(/\/+/g,"/")}function c(o){return a(`/posts/${o}/`)}function a(o){return e("","/",o)}export{c as g,u as p,a as u};
