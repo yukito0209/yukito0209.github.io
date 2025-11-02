@@ -1,7 +1,7 @@
 ---
-import { siteConfig } from "../config";
 import Icon from "../components/misc/Icon.astro";
 import IconifyLoader from "../components/misc/IconifyLoader.astro";
+import { siteConfig } from "../config";
 import {
 	getCurrentItems,
 	getFeaturedTimeline,
@@ -46,6 +46,10 @@ const getTypeIcon = (type: string) => {
 			return "material-symbols:code";
 		case "achievement":
 			return "material-symbols:emoji-events";
+		case "certificate":
+			return "material-symbols:verified";
+		case "volunteer":
+			return "material-symbols:volunteer-activism";
 		default:
 			return "material-symbols:event";
 	}
@@ -62,6 +66,10 @@ const getTypeColor = (type: string) => {
 			return "bg-purple-500";
 		case "achievement":
 			return "bg-orange-500";
+		case "certificate":
+			return "bg-purple-500";
+		case "volunteer":
+			return "bg-pink-500";
 		default:
 			return "bg-gray-500";
 	}
@@ -277,11 +285,17 @@ const subtitle = i18n(I18nKey.timelineSubtitle);
                         item.type === 'education' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400' :
                         item.type === 'work' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' :
                         item.type === 'project' ? 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400' :
+                        item.type === 'achievement' ? 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400' :
+                        item.type === 'certificate' ? 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400' :
+                        item.type === 'volunteer' ? 'bg-pink-100 text-pink-700 dark:bg-pink-900/30 dark:text-pink-400' :
                         'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400'
                       }`}>
                         {i18n(item.type === 'education' ? I18nKey.timelineEducation :
                               item.type === 'work' ? I18nKey.timelineWork :
                               item.type === 'project' ? I18nKey.timelineProject :
+                              item.type === 'achievement' ? I18nKey.timelineAchievement :
+                              item.type === 'certificate' ? I18nKey.timelineCertificate :
+                              item.type === 'volunteer' ? I18nKey.timelineVolunteer :
                               I18nKey.timelineAchievement)}
                       </span>
                       

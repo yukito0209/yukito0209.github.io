@@ -160,7 +160,8 @@ export const ja: Translation = {
 	[Key.atomHowToUse]:
 		"Feedly、Inoreaderまたは他のAtomリーダーを使用してこのサイトを購読することを推奨します。",
 	[Key.atomCopied]: "Atomリンクがクリップボードにコピーされました！",
-	[Key.atomCopyFailed]: "コピーに失敗しました。手動でリンクをコピーしてください",
+	[Key.atomCopyFailed]:
+		"コピーに失敗しました。手動でリンクをコピーしてください",
 
 	// スキルページ
 	[Key.skills]: "スキル",
@@ -196,6 +197,8 @@ export const ja: Translation = {
 	[Key.timelineWork]: "職歴",
 	[Key.timelineProject]: "プロジェクト経験",
 	[Key.timelineAchievement]: "実績",
+	[Key.timelineCertificate]: "証明書",
+	[Key.timelineVolunteer]: "ボランティア",
 	[Key.timelinePresent]: "現在",
 	[Key.timelineLocation]: "場所",
 	[Key.timelineDescription]: "詳細説明",

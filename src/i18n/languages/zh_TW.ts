@@ -150,7 +150,8 @@ export const zh_TW: Translation = {
 	[Key.atomBenefit2]: "在一個地方管理多個網站的訂閱",
 	[Key.atomBenefit3]: "避免錯過重要更新和文章",
 	[Key.atomBenefit4]: "享受無廣告的純淨閱讀體驗",
-	[Key.atomHowToUse]: "推薦使用 Feedly、Inoreader 或其他 Atom 閱讀器來訂閱本站。",
+	[Key.atomHowToUse]:
+		"推薦使用 Feedly、Inoreader 或其他 Atom 閱讀器來訂閱本站。",
 	[Key.atomCopied]: "Atom 鏈接已複製到剪貼板！",
 	[Key.atomCopyFailed]: "複製失敗，請手動複製鏈接",
 
@@ -188,6 +189,8 @@ export const zh_TW: Translation = {
 	[Key.timelineWork]: "工作經歷",
 	[Key.timelineProject]: "項目經歷",
 	[Key.timelineAchievement]: "成就榮譽",
+	[Key.timelineCertificate]: "證書",
+	[Key.timelineVolunteer]: "志願活動",
 	[Key.timelinePresent]: "至今",
 	[Key.timelineLocation]: "地點",
 	[Key.timelineDescription]: "詳細描述",
