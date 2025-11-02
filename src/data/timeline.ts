@@ -249,6 +249,7 @@ export const timelineData: TimelineItem[] = [
 		type: "certificate",
 		startDate: "2025-10-11",
 		endDate: "2027-10-11",
+		organization: "Alibaba Cloud",
 		skills: ["Large Language Models", "AI Fundamentals"],
 		achievements: [
 			"Completed Alibaba Cloud training courses on Large Language Models",
@@ -266,6 +267,8 @@ export const timelineData: TimelineItem[] = [
 		type: "volunteer",
 		startDate: "2025-06-15",
 		endDate: "2025-06-22",
+		location: "Dongguan, Guangdong, China",
+		organization: "Huawei Technologies Co., Ltd.",
 		skills: ["Event Management", "Communication", "Teamwork"],
 		achievements: [
 			"Assisted with event setup and logistics",
